@@ -161,14 +161,17 @@ border-radius: 0px 0px 4px 4px;};
 }
 /* #endregion our team */
 /* #region our porfolio */
+
+.portfolio-title{padding: 120px 0;}
 .portfolio{text-transform: capitalize;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-margin-bottom: 72px;}
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 72px;
+}
   
     .portfolio-list {display: flex;
     flex-wrap: wrap;
