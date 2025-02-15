@@ -16,7 +16,7 @@
     max-width: 100%;
     height: auto;}
   .conteiner{
-    width:1158px;
+  width:1158px;
   padding-left: 15px;
   padding-right: 15px;
    margin: 0 auto;}
@@ -62,12 +62,10 @@ align-items: center;}
 /*#region address */
 .address{font-style: normal;
 }
-  .list-address{display: flex;
+  .list-address{display: flex;justify-content: space-between;
     margin-left: auto;
-  padding-top: 24px;
-    padding-bottom: 24px;
-  gap: 40px}
-.address-link{
+    gap: 40px}
+.address-link{margin-right: 76px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
