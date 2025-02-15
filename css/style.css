@@ -162,8 +162,7 @@ border-radius: 0px 0px 4px 4px;};
 /* #endregion our team */
 /* #region our porfolio */
 
-.portfolio-title{padding: 120px 0;
-border: 1px solid #e7e9fc;}
+.portfolio-title{padding: 120px 0;}
 .portfolio{text-transform: capitalize;
 font-weight: 700;
 font-size: 36px;
@@ -173,7 +172,8 @@ text-align: center;
 color: #2e2f42;
 margin-bottom: 72px;
 }
-  
+  .portfolio-custom{border: 1px solid #e7e9fc;
+  padding: 32px 16px}
     .portfolio-list {display: flex;
     flex-wrap: wrap;
     gap:24px;
