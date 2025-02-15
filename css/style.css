@@ -6,6 +6,16 @@
   /* #region table */
   ul,ol {list-style-type: none;margin: 0;
   padding-left: 0;}
+  .visually-hedden{position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;}
   /* #endregion table */
   link{text-decoration: none;}
   /* #region links */
@@ -82,10 +92,7 @@ align-items: center;}
 /* #region main */
 /* #region tech skills */
 .techskills-conteiner{
-margin-left: 0;
-margin-right:0;
-margin-top: 120px;
-margin-bottom: 120px;
+padding: 120px 0;
 }
 .techskills-conteiner-list{display: flex;
 gap: 24px;
