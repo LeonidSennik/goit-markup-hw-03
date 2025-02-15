@@ -2,16 +2,26 @@
  body{font-family: "Roboto",sans-serif;
   color: #434455;background-color:#fff ; }
   /*#endregion  body  */
-  
+  p,h1,h2,h3,h4,h5,h6{margin:0}
   /* #region table */
-  ul,ol {list-style-type: none;}
+  ul,ol {list-style-type: none;margin: 0;
+  padding-left: 0;}
   /* #endregion table */
   
   /* #region links */
   a{text-decoration: none;}
   /* #endregion links */
-  
-  
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;}
+  .conteiner{
+    width:1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+   margin: 0 auto;}
+  .section{padding-top: 120px;
+padding-bottom: 120px;}
   /* #region logo */
   .logo {font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -21,10 +31,14 @@
     text-transform: uppercase;
     color: #4d5ae5;}
 
-
+.header-nav{display: flex;
+padding-top: 24px;
+padding-bottom: 24px;}
     .header-logo .logo-part{color: #2e2f42;}
   /*  #endregion logo */
   /*  #region navigation */
+ .nav-conteiner{display: flex;
+  }
     .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -32,6 +46,10 @@
     letter-spacing: 0.02em;
     color: #2e2f42;
       }
+.list-nav{display: flex;
+  margin-left: 76px;
+  gap:40px
+}
 
     .nav-link:hover,
     .nav-link:focus{color: #404bbf;}
@@ -41,8 +59,15 @@
 
 
 /*#region address */
-.address{font-style: normal;}
-
+.address{font-style: normal;
+}
+.address-conteiner{display: flex;
+  margin-left: auto;}
+  .list-address{display: flex;
+    margin-left: auto;
+  padding-top: 24px;
+    padding-bottom: 24px;
+  gap: 40px}
 .address-link{
     font-size: 16px;
     line-height: 1.5;
@@ -55,12 +80,25 @@
 
 /* #region main */
 /* #region tech skills */
+.techskills-conteiner{
+margin-left: 0;
+margin-right:0;
+margin-top: 120px;
+margin-bottom: 120px;
+}
+.techskills-conteiner-list{display: flex;
+gap: 24px;
+}
 .techskills{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;}
+  color: #2e2f42;
+margin-bottom: 8px;}
+.techskills-item{
+  width: calc((100% - 72px) / 4);
+}
   .techskills-text{
     font-weight: 400;
     font-size: 16px;
@@ -69,27 +107,44 @@
     color: #434455;}
 /* #endregion tech skills */
 /* #region our team */
-.ourteam{background-color: #F4F4FD;}
-.ourteam-table{background-color: #FFFFFF}
+.ourteam{background-color: #F4F4FD;
+
+}
+.center{text-align: center;
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ourteam-list{display: flex;
+  gap: 24px;
+}
+.ourteam-table{background-color: #FFFFFF;};
 .ourteam-head{text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+  width: 162px;
   text-align: center;
-  color: #2e2f42;}
+}
 .ourteam-head-people{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;}
+  color: #2e2f42;
+padding-top: 32px;
+text-align: center;}
 .ourteam-head-text{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;}
+  color: #434455;
+padding-top: 8px;
+padding-bottom: 32px;
+text-align: center;}
 /* #endregion our team */
 /* #region our porfolio */
 .portfolio{text-transform: capitalize;
@@ -98,33 +153,43 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;}
+  color: #2e2f42;
+margin-bottom: 72px;}
   
-    .portfolio-list {}
+    .portfolio-list {display: flex;
+    flex-wrap: wrap;
+    gap:24px;}
   
-    .portfolio-item {}
+    .portfolio-item {width: ((100% - 48px) / 3)}
   
     .portfolio-head {
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
       letter-spacing: 0.02em;
-      color: #2e2f42;}
+      color: #2e2f42;
+    padding-left: 16px;
+    padding-top: 32px;}
   
     .portfolio-text {
       font-weight: 400;
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
-      color: #434455;}
+      color: #434455;
+    padding-left: 16px;
+  padding-top: 8px;}
+
 /* #endregion our portfolio */
 
 /* #endregion main */
 
     /*#region footer */
-    .page-footer{background-color: #2e2f42;}
-
-   .footer-logo .logo-part{color: #f4f4fd;;}
+    .page-footer{background-color: #2e2f42;
+    height: 312px;
+  padding-top: 100px;
+padding-bottom: 100px;}
+   .footer-logo .logo-part{color: #f4f4fd;}
      .page-footer,.page-footer-text {
        font-weight: 400;
        font-size: 16px;
@@ -132,25 +197,47 @@
        letter-spacing: 0.02em;
        color: #f4f4fd;
      }
+         .page-footer-text{padding-top: 16px;
+        min-width: 264px;
+        margin-right: 1020px;}
    /* #endregion footer */
    
    
    
    /*#region button */
-   .business{background-color: #2e2f42;}
+   .business{
+      background-color: #2e2f42;
+    }
    .business-head { text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #fff;}
+    color: #fff;
+  width: 496px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
    button { cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background: #4d5ae5;}
+    background: #4d5ae5;
+   min-width: 169px;
+   height: 56px;
+   display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+   }
+
         button:hover,
         button:focus{
           background: #404bbf;}
