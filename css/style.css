@@ -31,10 +31,11 @@ padding-bottom: 120px;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;}
-
+.logo-part{margin-right: 76px}
 .header-nav{display: flex;
 padding-top: 24px;
-padding-bottom: 24px;}
+padding-bottom: 24px;
+align-items: center;}
     .header-logo .logo-part{color: #2e2f42;}
   /*  #endregion logo */
   /*  #region navigation */
