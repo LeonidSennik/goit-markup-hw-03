@@ -134,25 +134,31 @@ margin-bottom: 8px;}
   padding-top: 32px;
   text-align: center;
 }
-.ourteam{background-color: #F4F4FD;
-padding: 120px 0;
-}
-
-.ourteam-list{display: flex;
-  gap: 24px;
-}
-.ourteam-table{background-color: #FFFFFF;};
-
-.wrapper{padding: 32px 0;}
-.ourteam-head-text{
+.ourteam-head-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-padding-top: 8px;
-padding-bottom: 32px;
-text-align: center;}
+  margin-bottom: 8px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+.ourteam{background-color: #F4F4FD;
+padding: 120px 0;
+}
+.wrapper {
+  padding: 32px 0;
+}
+.ourteam-list{display: flex;
+  gap: 24px;
+}
+.ourteam-table{background-color: #FFFFFF;
+border-radius: 0px 0px 4px 4px;};
+.ourteam {
+  background-color: #F4F4FD;
+  padding: 120px 0;
+}
 /* #endregion our team */
 /* #region our porfolio */
 .portfolio{text-transform: capitalize;
