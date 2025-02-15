@@ -65,7 +65,7 @@ align-items: center;}
   .list-address{display: flex;justify-content: space-between;
     margin-left: auto;
     gap: 40px}
-.address-link{margin-right: 76px;
+.address-link{ margin-right: 76px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
