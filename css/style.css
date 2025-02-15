@@ -173,7 +173,8 @@ color: #2e2f42;
 margin-bottom: 72px;
 }
   .portfolio-custom{border: 1px solid #e7e9fc;
-  padding: 32px 16px}
+  padding: 32px 16px;
+border-top: none;}
     .portfolio-list {display: flex;
     flex-wrap: wrap;
     gap:24px;
